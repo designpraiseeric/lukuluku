@@ -1,0 +1,22 @@
+{
+  "name": "lukuluku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lukuluku: film look lab. Installable offline web app and Android build.",
+  "scripts": {
+    "build": "python3 tools/build.py src",
+    "manifest": "python3 tools/manifest.py src",
+    "icons": "python3 tools/icons.py",
+    "serve": "python3 -m http.server 8080 --directory www"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0"
+  }
+}

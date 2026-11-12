@@ -1,0 +1,70 @@
+{
+ "C0": {
+  "file": "C0_neutral_rec709.cube",
+  "size": 33
+ },
+ "C10": {
+  "file": "C10_technicolor_2strip.cube",
+  "size": 33
+ },
+ "C11": {
+  "file": "C11_fuji_eterna.cube",
+  "size": 33
+ },
+ "C12": {
+  "file": "C12_cross_processed.cube",
+  "size": 33
+ },
+ "C13": {
+  "file": "C13_cold_blue_nordic.cube",
+  "size": 33
+ },
+ "C14": {
+  "file": "C14_silent_tint_amber.cube",
+  "size": 33
+ },
+ "C15": {
+  "file": "C15_golden_green.cube",
+  "size": 33
+ },
+ "C16": {
+  "file": "C16_day_for_night.cube",
+  "size": 33
+ },
+ "C1": {
+  "file": "C1_kodak_print.cube",
+  "size": 33
+ },
+ "C2": {
+  "file": "C2_bleach_bypass.cube",
+  "size": 33
+ },
+ "C3": {
+  "file": "C3_technicolor_3strip.cube",
+  "size": 33
+ },
+ "C4": {
+  "file": "C4_monochrome.cube",
+  "size": 33
+ },
+ "C5": {
+  "file": "C5_teal_orange.cube",
+  "size": 33
+ },
+ "C6": {
+  "file": "C6_cyan_green_cool.cube",
+  "size": 33
+ },
+ "C7": {
+  "file": "C7_pastel_lowcon.cube",
+  "size": 33
+ },
+ "C8": {
+  "file": "C8_warm_amber_mono.cube",
+  "size": 33
+ },
+ "C9": {
+  "file": "C9_giallo_primaries.cube",
+  "size": 33
+ }
+}
