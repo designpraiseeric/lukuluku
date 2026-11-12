@@ -1,0 +1,7 @@
+{
+  "appId": "com.designpraise.lukuluku",
+  "appName": "Lukuluku",
+  "webDir": "www",
+  "backgroundColor": "#0e0e0f",
+  "android": { "backgroundColor": "#0e0e0f" }
+}
