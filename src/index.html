@@ -161,7 +161,7 @@ button:disabled{cursor:not-allowed}
       <canvas id="wave" width="512" height="256" class="scope" title="Waveform: brightness (bottom = black, top = white) across the frame"></canvas>
       <canvas id="vec" width="256" height="256" class="scope sq" title="Vectorscope: colour direction and strength; the line is the skin-tone line"></canvas></details>
     <details open data-tab="prompt"><summary>Export</summary>
-      <div class="prow"><label for="lutIn" style="color:var(--dim);font-size:11.5px">LUT for</label><select id="lutIn" title="What kind of footage you will apply the LUT to"><option value="709">Normal video (Rec.709: phones, most cameras, already-edited clips)</option><option value="log">Log footage (ARRI LogC3, or any log converted to LogC3)</option></select></div>
+      <div class="prow"><label for="lutIn" style="color:var(--dim);font-size:11.5px">LUT for</label><select id="lutIn" style="max-width:100%;flex:1" title="Normal video: phones, most cameras, already-edited clips. Log: ARRI LogC3, or any log converted to LogC3."><option value="709">Normal video (Rec.709, phones)</option><option value="log">Log footage (ARRI LogC3)</option></select></div>
       <div class="prow"><button id="exportLut">Export look as LUT (.cube)</button></div>
       <div class="note2">Bakes colour science, film-medium tone, wheels, curves and sliders into a 33³ LUT, made for the footage you pick above. Output is Rec.709 / sRGB for a normal screen. Rec.709 LUTs leave out Exposure: set brightness per clip in your editor. Grain, mist, halation, sharpness and vignette are spatial, so they are not in the LUT; add them in your editor.</div></details>
     <details open data-tab="prompt"><summary>Prompt <button id="copyPrompt">Copy</button></summary>
