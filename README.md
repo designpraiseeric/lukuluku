@@ -29,3 +29,7 @@ The options shown as **soon** (dashed) are waiting on renders. See [`render/REND
 Local: `python3 tools/build.py && npm run serve`, then open http://localhost:8080.
 
 Credits: cast scans (CC BY 4.0) by deep3dstudio and yaro.pro via Sketchfab; set props and textures from Poly Haven (CC0).
+
+## License
+
+Code is MIT licensed (see [LICENSE](LICENSE)). Third-party assets keep their own licenses: cast scans are CC BY 4.0 (credits above), Poly Haven props and textures are CC0.
